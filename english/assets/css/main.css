@@ -3431,7 +3431,7 @@ label{
     margin-top:3px
 }
 input.parsley-error,select.parsley-error,textarea.parsley-error{
-    background-color:#fbf5f5;
+    background-color:#141414;
     border-color:#efd8d8
 }
 .form-control.parsley-error:focus{
