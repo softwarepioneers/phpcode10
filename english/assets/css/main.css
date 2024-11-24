@@ -8231,8 +8231,9 @@ input[type=text] {
     text-transform: capitalize;
   }
 
-  input[type=text] {
-    background-color:black
+  input[type="date"] {
+    background-color:black;
+    color: white;
     
   }
 
