@@ -8229,8 +8229,11 @@ ul.list-justify.large-number span{
 
 input[type=text] {
     text-transform: capitalize;
-    background-color:#5A5A5A
-    
+  }
+
+
+  input:focus {
+    background-color:#5A5A5A;
   }
 
 
