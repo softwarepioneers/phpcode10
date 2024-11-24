@@ -8232,8 +8232,14 @@ input[type=text] {
   }
 
 
-input:focus {
+/* input:focus {
     background-color:#5A5A5A;
+  } */
+
+
+
+  input[type=text]:focus {
+    background-color: #5A5A5A;
   }
 
 
