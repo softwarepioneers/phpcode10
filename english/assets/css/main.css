@@ -3126,7 +3126,7 @@ html.fullscreen-bg,html.fullscreen-bg body,html.fullscreen-bg #wrapper{
 .menu-icon .sidebar .metismenu li ul li a::after{
     background-color:#777;
     content:"";
-    width:1px;
+    width:10px;
     height:calc(100% - 0px);
     position:absolute;
     top:0px;
