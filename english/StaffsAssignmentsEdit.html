@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-<title>UPDATE TEACHERS TASKS</title>
+<title>UPDATE STAFFS ASSIGNMENT</title>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
@@ -894,7 +894,7 @@
             <div class="block-header">
                 <div class="row">
                     <div class="col-lg-5 col-md-8 col-sm-12">                        
-                        <h2>UPDATE TEACHERS TASKS:</h2>
+                        <h2>UPDATE STAFFS ASSIGNMENT:</h2>
                     </div>           
                     <!-- <div class="col-lg-7 col-md-4 col-sm-12 text-right">
                         <ul class="breadcrumb justify-content-end">
@@ -917,31 +917,22 @@
                                 <div class="row">
                                     <div class="col">
                                         <div class="form-group ">
-                                            <label>TEACHER NAME:</label>
-                                            <input type="text" name="TeacherName"  maxlength="28" placeholder="Teacher Name" value="" class="form-control" onkeydown="return /[a-z, ]/i.test(event.key)" onblur="if (this.value == '') {this.value = '';}" onfocus="if (this.value == '') {this.value = '';}" required >
+                                            <label>STAFF NAME:</label>
+                                            <input type="text" name="StaffName"  maxlength="28" placeholder="Staff Name" value="" class="form-control" onkeydown="return /[a-z, ]/i.test(event.key)" onblur="if (this.value == '') {this.value = '';}" onfocus="if (this.value == '') {this.value = '';}" required >
                                         </div>
                                     </div>
                                     <div class="col">
                                         <div class="form-group ">
-                                            <label>TEACHER SUBJECT:</label>
-                                            <select   name="TeacherSubject" placeholder="Teacher Subject" value=""  class="anyname form-control"  required>
+                                            <label>STAFF SECTION:</label>
+                                            <select   name="StaffSection" placeholder="Staff Section" value=""  class="anyname form-control"  required>
                                             <!-- <select data-placeholder="First Period" class="anyname form-control"> -->
-                                                <option value="" selected="" disabled="" >Teacher Subject</option>
-                                                <option value="Islamic Education">Islamic Education</option>
-                                                <option value="Arabic Language">Arabic Language</option>
-                                                <option value="Somali Language">Somali Language</option>
-                                                <option value="English Language">English Language</option>
-                                                <option value="Mathematics Science">Mathematics Science</option>
-                                                <option value="Chemistry Science">Chemistry Science</option>
-                                                <option value="Physics Science">Physics Science</option>
-                                                <option value="Biology Science">Biology Science</option>
-                                                <option value="Computer Science">Computer Science</option>
-                                                <option value="Sports Education">Sports Education</option>   
+                                                <option value="" selected="" disabled="" >Staff Section</option>
+                                                <option value="Islamic Education">Students Section</option>
+                                                <option value="Arabic Language">Teachers Section</option>
+                                                <option value="Somali Language">Employees Section</option>
+                                                <option value="English Language">Laborers Section</option>
+                                                <option value="Mathematics Science">Drivers Section</option>
                                            </select>
-                                        
-                                             <!-- <select  name="FirstPeriod" placeholder="First Period" value=""  class="anyname form-control"  required>
-                                               
-                                            </select>  -->
                                         </div>
                                     </div>
                                    
@@ -953,35 +944,25 @@
                                     </div> -->
                                     <div class="col">
                                         <div class="form-group ">
-                                            <label>FIRST TASK:</label>
-                                            <select   name="FirstTask" placeholder="First Task" value=""  class="anyname form-control"  required>
-                                            <!-- <select data-placeholder="First Task" class="anyname form-control"> -->
-                                                <option value="" selected="" disabled="" >First Task</option>
-                                                <option value="Off">Off</option>
-                                                <option value="Islamic Education">Islamic Education</option>
-                                                <option value="Arabic Language">Arabic Language</option>
-                                                <option value="Somali Language">Somali Language</option>
-                                                <option value="English Language">English Language</option>
-                                                <option value="Mathematics Science">Mathematics Science</option>
-                                                <option value="Chemistry Science">Chemistry Science</option>
-                                                <option value="Physics Science">Physics Science</option>
-                                                <option value="Biology Science">Biology Science</option>
-                                                <option value="Computer Science">Computer Science</option>
-                                                <option value="Sports Education">Sports Education</option>      
-                                           </select>
-                                        
-                                             <!-- <select  name="FirstTask" placeholder="First Task" value=""  class="anyname form-control"  required>
-                                               
-                                            </select>  -->
+                                            <label>FIRST ASSIGNMENT:</label>
+                                            <input type="text" name="FirstAssignment"  maxlength="28" placeholder="First Assignment" value="" class="form-control" onkeydown="return /[a-z, ]/i.test(event.key)" onblur="if (this.value == '') {this.value = '';}" onfocus="if (this.value == '') {this.value = '';}" required >
                                         </div>
                                     </div>
                                   </div>
+
                                   <div class="row">
                                     <div class="col">
                                         <div class="form-group ">
-                                            <label>SECOND TASK:</label>
+                                            <label>SECOND ASSIGNMENT:</label>
+                                            <input type="text" name="SecondAssignment"  maxlength="28" placeholder="Second Assignment" value="" class="form-control" onkeydown="return /[a-z, ]/i.test(event.key)" onblur="if (this.value == '') {this.value = '';}" onfocus="if (this.value == '') {this.value = '';}" required >
+                                        </div>
+                                    </div>
+
+                                    <!-- <div class="col">
+                                        <div class="form-group ">
+                                            <label>SECOND ASSIGNMENT:</label>
                                             <select name="SecondTask" placeholder="Second Task" value=""  class="anyname form-control" required>
-                                               <!-- <select data-placeholder="First Task" class="anyname form-control"> -->
+                                               <select data-placeholder="First Task" class="anyname form-control"> 
                                                 <option value="" selected="" disabled="" >Second Task</option>
                                                 <option value="Off">Off</option>
                                                 <option value="Islamic Education">Islamic Education</option>
@@ -996,12 +977,20 @@
                                                 <option value="Sports Education">Sports Education</option>   
                                             </select>
                                         </div>
-                                    </div>
+                                    </div> -->
+
                                     <div class="col">
                                         <div class="form-group ">
-                                            <label>THIRD TASK:</label>
+                                            <label>THIRD ASSIGNMENT:</label>
+                                            <input type="text" name="ThirdAssignment"  maxlength="28" placeholder="Third Assignment" value="" class="form-control" onkeydown="return /[a-z, ]/i.test(event.key)" onblur="if (this.value == '') {this.value = '';}" onfocus="if (this.value == '') {this.value = '';}" required >
+                                        </div>
+                                    </div>
+
+                                    <!-- <div class="col">
+                                        <div class="form-group ">
+                                            <label>THIRD ASSIGNMENT:</label>
                                             <select name="ThirdTask" placeholder="Third Task" value=""  class="anyname form-control" required>
-                                                 <!-- <select data-placeholder="First Task" class="anyname form-control"> -->
+                                                <select data-placeholder="First Task" class="anyname form-control"> 
                                                     <option value="" selected="" disabled="" >Third Task</option>
                                                     <option value="Off">Off</option>
                                                     <option value="Islamic Education">Islamic Education</option>
@@ -1016,12 +1005,21 @@
                                                     <option value="Sports Education">Sports Education</option>   
                                             </select>
                                         </div>
-                                    </div>
+                                    </div> -->
+
                                     <div class="col">
+                                        <div class="form-group ">
+                                            <label>FOURTH ASSIGNMENT:</label>
+                                            <input type="text" name="FourthAssignment"  maxlength="28" placeholder="Fourth Assignment" value="" class="form-control" onkeydown="return /[a-z, ]/i.test(event.key)" onblur="if (this.value == '') {this.value = '';}" onfocus="if (this.value == '') {this.value = '';}" required >
+                                        </div>
+                                    </div>
+
+
+                                    <!-- <div class="col">
                                         <div class="form-group ">
                                             <label>FOURTH TASK:</label>
                                             <select name="FourthTask" placeholder="Fourth Task" value=""  class="anyname form-control" required>
-                                                <!-- <select data-placeholder="First Task" class="anyname form-control"> -->
+                                                 <select data-placeholder="First Task" class="anyname form-control"> 
                                                     <option value="" selected="" disabled="" >Fourth Task</option>
                                                     <option value="Off">Off</option>
                                                     <option value="Islamic Education">Islamic Education</option>
@@ -1036,16 +1034,24 @@
                                                     <option value="Sports Education">Sports Education</option>   
                                             </select>
                                         </div>
-                                    </div>
+                                    </div> -->
                                    
                                   </div>
 
                                   <div class="row">
+
                                     <div class="col">
+                                        <div class="form-group ">
+                                            <label>FIFTH ASSIGNMENT:</label>
+                                            <input type="text" name="FifthAssignment"  maxlength="28" placeholder="Fifth Assignment" value="" class="form-control" onkeydown="return /[a-z, ]/i.test(event.key)" onblur="if (this.value == '') {this.value = '';}" onfocus="if (this.value == '') {this.value = '';}" required >
+                                        </div>
+                                    </div>
+
+                                    <!-- <div class="col">
                                         <div class="form-group ">
                                             <label>FIFTH TASK:</label>
                                             <select name="FifthTask" placeholder="Fifth Task" value=""  class="anyname form-control" required>
-                                                <!-- <select data-placeholder="First Task" class="anyname form-control"> -->
+                                                 <select data-placeholder="First Task" class="anyname form-control">
                                                     <option value="" selected="" disabled="" >Fifth Task</option>
                                                     <option value="Off">Off</option>
                                                     <option value="Islamic Education">Islamic Education</option>
@@ -1060,12 +1066,20 @@
                                                     <option value="Sports Education">Sports Education</option>     
                                             </select>
                                         </div>
-                                    </div>
+                                    </div> -->
+
                                     <div class="col">
+                                        <div class="form-group ">
+                                            <label>SIXTH ASSIGNMENT:</label>
+                                            <input type="text" name="SixthAssignment"  maxlength="28" placeholder="Sixth Assignment" value="" class="form-control" onkeydown="return /[a-z, ]/i.test(event.key)" onblur="if (this.value == '') {this.value = '';}" onfocus="if (this.value == '') {this.value = '';}" required >
+                                        </div>
+                                    </div>
+
+                                    <!-- <div class="col">
                                         <div class="form-group ">
                                             <label>SIXTH TASK:</label>
                                             <select name="SixthTask" placeholder="Sixth Task" value=""  class="anyname form-control" required>
-                                                <!-- <select data-placeholder="First Task" class="anyname form-control"> -->
+                                                <select data-placeholder="First Task" class="anyname form-control"> 
                                                     <option value="" selected="" disabled="" >Sixth Task</option>
                                                     <option value="Off">Off</option>
                                                     <option value="Islamic Education">Islamic Education</option>
@@ -1080,12 +1094,20 @@
                                                     <option value="Sports Education">Sports Education</option>   
                                             </select>
                                         </div>
-                                    </div>
+                                    </div> -->
+
                                     <div class="col">
+                                        <div class="form-group ">
+                                            <label>SEVENTH ASSIGNMENT:</label>
+                                            <input type="text" name="SeventhAssignment"  maxlength="28" placeholder="Seventh Assignment" value="" class="form-control" onkeydown="return /[a-z, ]/i.test(event.key)" onblur="if (this.value == '') {this.value = '';}" onfocus="if (this.value == '') {this.value = '';}" required >
+                                        </div>
+                                    </div>
+
+                                    <!-- <div class="col">
                                         <div class="form-group ">
                                             <label>SEVENTH TASK:</label>
                                             <select name="SeventhTask" placeholder="Seventh Task" value=""  class="anyname form-control" required>
-                                                <!-- <select data-placeholder="First Task" class="anyname form-control"> -->
+                                                 <select data-placeholder="First Task" class="anyname form-control"> 
                                                     <option value="" selected="" disabled="" >Seventh Task</option>
                                                     <option value="Off">Off</option>
                                                     <option value="Islamic Education">Islamic Education</option>
@@ -1101,15 +1123,24 @@
                                             </select>
                                         </div>
                                     </div>
-                                   
+                                    -->
                                   </div>
                                   
                                   <div class="row">
+
                                     <div class="col">
+                                        <div class="form-group ">
+                                            <label>EIGHTH ASSIGNMENT:</label>
+                                            <input type="text" name="EigthAssignment"  maxlength="28" placeholder="Eigth Assignment" value="" class="form-control" onkeydown="return /[a-z, ]/i.test(event.key)" onblur="if (this.value == '') {this.value = '';}" onfocus="if (this.value == '') {this.value = '';}" required >
+                                        </div>
+                                    </div>
+
+
+                                    <!-- <div class="col">
                                         <div class="form-group ">
                                             <label>EIGHTH TASK:</label>
                                             <select name="EigthTask" placeholder="Eigth Task" value=""  class="anyname form-control" required>
-                                                <!-- <select data-placeholder="First Task" class="anyname form-control"> -->
+                                               <select data-placeholder="First Task" class="anyname form-control"> 
                                                     <option value="" selected="" disabled="" >Eigth Task</option>
                                                     <option value="Off">Off</option>
                                                     <option value="Islamic Education">Islamic Education</option>
@@ -1124,12 +1155,20 @@
                                                     <option value="Sports Education">Sports Education</option>   
                                             </select>
                                         </div>
-                                    </div>
+                                    </div> -->
+                                    
                                     <div class="col">
+                                        <div class="form-group ">
+                                            <label>NINTH ASSIGNMENT:</label>
+                                            <input type="text" name="NinthAssignment"  maxlength="28" placeholder="Ninth Assignment" value="" class="form-control" onkeydown="return /[a-z, ]/i.test(event.key)" onblur="if (this.value == '') {this.value = '';}" onfocus="if (this.value == '') {this.value = '';}" required >
+                                        </div>
+                                    </div>
+
+                                    <!-- <div class="col">
                                         <div class="form-group ">
                                             <label>NINTH TASK:</label>
                                             <select name="NinthTask" placeholder="Ninth Task" value=""  class="anyname form-control" required>
-                                                <!-- <select data-placeholder="First Task" class="anyname form-control"> -->
+                                                <select data-placeholder="First Task" class="anyname form-control"> 
                                                     <option value="" selected="" disabled="" >Ninth Task</option>
                                                     <option value="Off">Off</option>
                                                     <option value="Islamic Education">Islamic Education</option>
@@ -1144,12 +1183,21 @@
                                                     <option value="Sports Education">Sports Education</option>   
                                             </select>
                                         </div>
-                                    </div>
+                                    </div> -->
+
                                     <div class="col">
+                                        <div class="form-group ">
+                                            <label>TENTH ASSIGNMENT:</label>
+                                            <input type="text" name="TenthAssignment"  maxlength="28" placeholder="Tenth Assignment" value="" class="form-control" onkeydown="return /[a-z, ]/i.test(event.key)" onblur="if (this.value == '') {this.value = '';}" onfocus="if (this.value == '') {this.value = '';}" required >
+                                        </div>
+                                    </div>
+
+
+                                    <!-- <div class="col">
                                         <div class="form-group ">
                                             <label>TENTH TASK:</label>
                                             <select name="TenthTask" placeholder="Tenth Task" value=""  class="anyname form-control" required>
-                                                <!-- <select data-placeholder="First Task" class="anyname form-control"> -->
+                                                 <select data-placeholder="First Task" class="anyname form-control"> 
                                                     <option value="" selected="" disabled="" >Tenth Task</option>
                                                     <option value="Off">Off</option>
                                                     <option value="Islamic Education">Islamic Education</option>
@@ -1165,7 +1213,7 @@
                                             </select>
                                         </div>
                                     </div>
-                                 
+                                  -->
                                   </div>
         
                                            
