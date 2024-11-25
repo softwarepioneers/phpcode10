@@ -3126,20 +3126,21 @@ html.fullscreen-bg,html.fullscreen-bg body,html.fullscreen-bg #wrapper{
 .menu-icon .sidebar .metismenu li ul li a::after{
     background-color:#777;
     content:"";
-    width:10px;
+    width:1px;
     height:calc(100% - 0px);
     position:absolute;
     top:0px;
     left:22px
 }
 .menu-icon .sidebar.ps{
-    overflow:visible !important
+    overflow:visible !important;
 }
 .menu-icon .sidebar .slimScrollDiv{
-    overflow:visible !important
+    overflow:visible !important;
 }
 .menu-icon .sidebar .slimScrollDiv .sidebar-scroll{
-    overflow:visible !important
+    overflow:visible !important;
+    width:10px;
 }
 .menu-icon #main-content{
     width:calc(100% - 50px)
