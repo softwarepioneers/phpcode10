@@ -3133,14 +3133,14 @@ html.fullscreen-bg,html.fullscreen-bg body,html.fullscreen-bg #wrapper{
     left:22px
 }
 .menu-icon .sidebar.ps{
-    overflow:visible !important;
+    overflow:visible !important
 }
 .menu-icon .sidebar .slimScrollDiv{
-    overflow:visible !important;
+    overflow:visible !important
 }
 .menu-icon .sidebar .slimScrollDiv .sidebar-scroll{
-    overflow:visible !important;
-    width:10px;
+    overflow:visible !important
+   
 }
 .menu-icon #main-content{
     width:calc(100% - 50px)
