@@ -912,13 +912,13 @@
                                     <div class="col">
                                         <div class="form-group ">
                                             <label>MANAGER NAME:</label>
-                                            <input type="text" name="ManagerName"  maxlength="28" placeholder="Manager Name" value="" class="form-control" onkeydown="return /[a-z, ]/i.test(event.key)" onblur="if (this.value == '') {this.value = '';}" onfocus="if (this.value == '') {this.value = '';}" required >
+                                            <input type="text" name="ManagerName"   placeholder="Manager Name" value="" class="form-control" onkeydown="return /[a-z, ]/i.test(event.key)" onblur="if (this.value == '') {this.value = '';}" onfocus="if (this.value == '') {this.value = '';}" required >
                                         </div>
                                     </div>
                                     <div class="col">
                                         <div class="form-group ">
                                             <label>MANAGER PASSWORD:</label>
-                                            <input type="text" name="ManagerPassword"  maxlength="28" placeholder="Manager Password" value="" class="form-control"  required >
+                                            <input type="text" name="ManagerPassword"   placeholder="Manager Password" value="" class="form-control"  required >
                                         </div>
                                     </div>
                                     <!-- <div class="col">
@@ -973,7 +973,7 @@
                                     <div class="col">
                                         <div class="form-group ">
                                             <label>MANAGER SCHOOL:</label>
-                                            <input type="text" name="ManagerSchool"  maxlength="28" placeholder="Manager School" value="" class="form-control" onkeydown="return /[a-z, ]/i.test(event.key)" onblur="if (this.value == '') {this.value = '';}" onfocus="if (this.value == '') {this.value = '';}" required >
+                                            <input type="text" name="ManagerSchool"   placeholder="Manager School" value="" class="form-control" onkeydown="return /[a-z, ]/i.test(event.key)" onblur="if (this.value == '') {this.value = '';}" onfocus="if (this.value == '') {this.value = '';}" required >
                                             <!-- <input  type="text"  name="ManagerSchool" placeholder="Manager School" value="" class="form-control"  onblur="(this.type='text')" onfocus="(this.type='date')" required  >  -->
                                         </div>
                                     </div>
@@ -1023,9 +1023,9 @@
                                             <label>MANAGER PERMISSION:</label>
                                             <select name="ManagerPermission" placeholder="Manager Permission" value=""  class="form-control" required>
                                                 <option value="" selected="" disabled="" >Manager Permission</option>
-                                                <option value="Sa"    >Sa</option>
-                                                <option value="Admin"    >Admin</option>
-                                                <option value="User"    >User</option>
+                                                <option value="SA"    >SA</option>
+                                                <option value="ADMIN"    >ADMIN</option>
+                                                <option value="USER"    >USER</option>
                                             </select>
                                         </div>
                                     </div>
@@ -1040,7 +1040,8 @@
                                     <div class="col">
                                         <div class="form-group ">
                                             <label>MANAGER EMAIL:</label>
-                                            <input type="text" name="ManagerEmail"  maxlength="90" placeholder="Manager Email" value="" class="form-control" onkeydown="return /[a-z, ]/i.test(event.key)" onblur="if (this.value == '') {this.value = '';}" onfocus="if (this.value == '') {this.value = '';}" required >
+                                            <!--onkeydown="return /[a-z, ]/i.test(event.key)" onblur="if (this.value == '') {this.value = '';}" onfocus="if (this.value == '') {this.value = '';}"-->
+                                            <input type="text" name="ManagerEmail"   placeholder="Manager Email" value="" class="form-control"  required >
                                         </div>
                                     </div>
 

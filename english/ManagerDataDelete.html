@@ -918,13 +918,13 @@
                                     <div class="col">
                                         <div class="form-group ">
                                             <label>MANAGER NAME:</label>
-                                            <input type="text" name="ManagerName"  maxlength="28" placeholder="Manager Name" value="" class="form-control" onkeydown="return /[a-z, ]/i.test(event.key)" onblur="if (this.value == '') {this.value = '';}" onfocus="if (this.value == '') {this.value = '';}" required >
+                                            <input type="text" name="ManagerName"   placeholder="Manager Name" value="" class="form-control" onkeydown="return /[a-z, ]/i.test(event.key)" onblur="if (this.value == '') {this.value = '';}" onfocus="if (this.value == '') {this.value = '';}" required >
                                         </div>
                                     </div>
                                     <div class="col">
                                         <div class="form-group ">
                                             <label>MANAGER PASSWORD:</label>
-                                            <input type="text" name="ManagerPassword"  maxlength="28" placeholder="Manager Password" value="" class="form-control"  required >
+                                            <input type="text" name="ManagerPassword"   placeholder="Manager Password" value="" class="form-control"  required >
                                         </div>
                                     </div>
                                     <!-- <div class="col">
@@ -938,7 +938,7 @@
                                             <label>MANAGER TYPE:</label>
                                             <select name="ManagerType" placeholder="Manager Type" value=""  class="form-control" required>
                                                 <option value="" selected="" disabled="" >Manager Type</option>
-
+                                                <option value="SA"        >SA</option>
                                                 <option value="KGSS"     >KGSS</option>
                                                 <option value="PRISS"          >PRISS</option>
                                                 <option value="PRESS"      >PRESS</option>
@@ -979,7 +979,7 @@
                                     <div class="col">
                                         <div class="form-group ">
                                             <label>MANAGER SCHOOL:</label>
-                                            <input type="text" name="ManagerSchool"  maxlength="28" placeholder="Manager School" value="" class="form-control" onkeydown="return /[a-z, ]/i.test(event.key)" onblur="if (this.value == '') {this.value = '';}" onfocus="if (this.value == '') {this.value = '';}" required >
+                                            <input type="text" name="ManagerSchool"   placeholder="Manager School" value="" class="form-control" onkeydown="return /[a-z, ]/i.test(event.key)" onblur="if (this.value == '') {this.value = '';}" onfocus="if (this.value == '') {this.value = '';}" required >
                                             <!-- <input  type="text"  name="ManagerSchool" placeholder="Manager School" value="" class="form-control"  onblur="(this.type='text')" onfocus="(this.type='date')" required  >  -->
                                         </div>
                                     </div>
@@ -1013,8 +1013,8 @@
                                             <label>MANAGER ACTIVATION:</label>
                                             <select name="ManagerActivation" placeholder="Manager Activation" value=""  class="form-control" required>
                                                 <option value="" selected="" disabled="" >Manager Activation</option>
-                                                <option value="Activation"    >Activation</option>
-                                                <option value="Suspension"    >Suspension</option>
+                                                <option value="ACTIVATION"    > ACTIVATION</option>
+                                                <option value="SUSPENSION"    >SUSPENSION</option>
                                             </select>
                                         </div>
                                     </div>
@@ -1029,16 +1029,9 @@
                                             <label>MANAGER PERMISSION:</label>
                                             <select name="ManagerPermission" placeholder="Manager Permission" value=""  class="form-control" required>
                                                 <option value="" selected="" disabled="" >Manager Permission</option>
-                                                <option value="SA"    >Sa</option>
-                                                <option value="Admin"    >Admin</option>
-                                                <option value="Managers"    >Managers</option>
-                                                <option value="Students"    >Students</option>
-                                                <option value="Teachers"    >Teachers</option>
-                                                <option value="Employees"    >Employees</option>
-                                                <option value="Laborers"    >Laborers</option>
-                                                <option value="Drivers"    >Drivers</option>
-                                                <option value="Results"    >Results</option>
-                                                <option value="Buses"    >Buses</option>
+                                                <option value="SA"    >SA</option>
+                                                <option value="ADMIN"    >ADMIN</option>
+                                                <option value="USER"    >USER</option>
                                             </select>
                                         </div>
                                     </div>
@@ -1053,7 +1046,8 @@
                                     <div class="col">
                                         <div class="form-group ">
                                             <label>MANAGER EMAIL:</label>
-                                            <input type="text" name="ManagerEmail"  maxlength="90" placeholder="Manager Email" value="" class="form-control" onkeydown="return /[a-z, ]/i.test(event.key)" onblur="if (this.value == '') {this.value = '';}" onfocus="if (this.value == '') {this.value = '';}" required >
+                                            <!--onkeydown="return /[a-z, ]/i.test(event.key)" onblur="if (this.value == '') {this.value = '';}" onfocus="if (this.value == '') {this.value = '';}"-->
+                                            <input type="text" name="ManagerEmail"   placeholder="Manager Email" value="" class="form-control"  required >
                                         </div>
                                     </div>
 
