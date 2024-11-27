@@ -917,7 +917,7 @@
                                     <div class="col">
                                         <div class="form-group ">
                                             <label>TOTAL STUDENTS:</label>
-                                            <input type="number" name="TotalStudents"   placeholder="Total Students" step="1" min="0" max="100000" value="0" class="form-control" onkeydown="return /[a-z, ]/i.test(event.key)" onblur="if (this.value == '') {this.value = '';}" onfocus="if (this.value == '') {this.value = '';}" required >
+                                            <input type="number" name="TotalStudents"   placeholder="Total Students" step="1" min="0" max="100000" value="0" class="form-control" onkeypress="return /[0-9]/i.test(event.key)" required >
                                         </div>
                                     </div>
                                     <div class="col">
