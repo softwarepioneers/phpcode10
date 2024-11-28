@@ -1107,7 +1107,7 @@
                                 <table id="Mytable" class="table table-bordered table-hover js-basic-example dataTable table-custom">
                                     <thead>
                                         <tr>
-                                            <th> NAME</th>
+                                            <th> NUMBER</th>
                                             <th> DATE</th>
                                             <th> TYPE</th>
                                             <th> SCHOOL</th>
@@ -2211,7 +2211,7 @@
       table = document.getElementById("Mytable");
       tr = table.getElementsByTagName("tr");
       for (i = 0; i < tr.length; i++) {
-        td = tr[i].getElementsByTagName("td")[2];
+        td = tr[i].getElementsByTagName("td")[0];
         if (td) {
           txtValue = td.textContent || td.innerText;
           if (txtValue.toUpperCase().indexOf(filter) > -1) {
